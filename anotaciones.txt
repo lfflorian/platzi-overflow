@@ -1,0 +1,86 @@
+MEAN
+A (AngularJs)
+Libreria para el FrontEnd - tiene opcion para el BackEnd, podemos ogranizar y separar las responsabilidades por medio de componentes
+
+componentes:
+Unidades visuales reutilisables y con un pomportamiento definido (tiene una estructura para usarlo en distintas maneras, separa componentes JS HTML y CSS)
+
+routing:
+Sistema de ruteo, esto sucede en el navegador, front le pide al backend para mostrar.
+
+Services:
+Conectar entre otras osas con backend, pedir datos.
+
+Templates:
+Cada componente tiene asociado un template (html)
+
+Modules:
+Librerias enteras con componentes y directivas ya establecidads que podemos usar (Maerial Angularjs , incorportal el dise;o de google)
+
+CLI: 
+interfaz para escribir comandos en la terminal
+
+TypeScript: Libreria
+Expande las capacidades de JS para evitar errores con la definicion de variables
+
+Developer Experience:
+Ver los cambios automaticamente sin recompilar
+
+Hyper, Angular CLI
+
+------------------ EMPEZANDO CON ANGULAR CLI
+ng new platzi-overflow
+cd platzi-overflow
+ng server <- construir y levantar servidor
+
+------------------ MATEIALIZE
+Angular Material son componentes basados en Material Design para Angular. www.Material.angular.io
+package.json es como el manifiesto de nuestros proyectos, es donde están todos los detalles.
+
+Las dos manera para importar modules es importando cada module con el import y de clararlo uno por uno
+la siguiente manera es creando un archivo en la carpeta app material.module.ts
+
+Aparte de los modules de material utilizaremos hammerJs para los gestos con los dedos:
+npm install --save hammerjs
+
+material.io/icons
+primero nombre,el tipo de archivo, y ultimo la extension
+Iconos konpa.github.io/devicon/
+el signo de interrogacion en los modulo es para colocar una parte opcional
+
+// para las fechas
+angular2-moment
+los pipes hacen filtros | 
+react forms
+
+Validaciones de email emailregex.com
+
+------------------- NODE JS y express
+
+un solo hilo thread
+Servidores web/Web APIs 
+Herramientas utilitarias
+
+
+-------------------- express
+Construir: servidores Web/ APIs
+Middlwares
+- Body-parser
+- Auth
+- db-APIs
+- Template
+
+comandos ejecutados
+npm install --save debug
+npm install --save babel-cli babel-preset-es2015
+creacion del .babelrc y carpeta server con aarchivo
+
+npm install --save express nodemon concurrently
+nodemon servidor refrescar recorrer el proceso (para refrescar o volver a ejecutar comandos)
+corer proceso en paralelo un comando (srver backend y angular al mismo tiempo)
+
+
+npm install --save url-join
+npm install --save body-parser (leer datos del request del front end)
+
+npm install --save sweet-scroll
