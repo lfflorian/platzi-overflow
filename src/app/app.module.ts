@@ -14,6 +14,7 @@ import { SignupScreenComponent } from './singup/singup-screen.component';
 import { QuestionListComponent } from './question/question-list.component';
 import { QuestionFormComponent } from './question/question-form.component';
 import { MomentModule } from 'angular2-moment';
+import { AuthService } from './auth/auth.service';
 import { Routing } from './app.routing';
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { Routing } from './app.routing';
     Routing,
     HttpModule
   ],
-  providers: [],
+  providers: [AuthService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

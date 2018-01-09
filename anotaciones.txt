@@ -84,3 +84,4 @@ npm install --save url-join
 npm install --save body-parser (leer datos del request del front end)
 
 npm install --save sweet-scroll
+npm install --save jsonwebtoken
