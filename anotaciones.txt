@@ -85,3 +85,13 @@ npm install --save body-parser (leer datos del request del front end)
 
 npm install --save sweet-scroll
 npm install --save jsonwebtoken
+
+
+middleware como un tubo
+static: Archivos estaticos
+Body-parser: leer los datos que nos envian en un formulario (por ejemplo)
+user-required: se encarga de validar en el req, encuentre los datos del usuario
+
+UR -> BP -> QuestionMiddleware
+el orden de los MiddleWare, IMPORTA!
+next() llama al siguietne mw
