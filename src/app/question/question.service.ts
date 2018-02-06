@@ -34,9 +34,7 @@ export class QuestionService {
     handleError(error: any) {
         const errMsg = error.message ? error.message :
             error.status ? `${error.status} - ${error.message}` : 'Server error';
-
         console.log(errMsg);
-
     }
 
     addQuestion(question: Question) {
